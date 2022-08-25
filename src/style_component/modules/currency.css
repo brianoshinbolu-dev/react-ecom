@@ -1,0 +1,13 @@
+.dropdown-price {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+#price:checked ~ .dropdown-price {
+    display: block;
+}
+
+input#price {
+    display:none;
+}

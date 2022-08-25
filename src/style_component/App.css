@@ -1,0 +1,11 @@
+@import "./modules/header.css";
+@import "./modules/body.css";
+@import "./modules/page-title.css";
+@import "./modules/product-list.css";
+@import "./modules/cart-dropdown.css";
+@import "./modules/currency.css";
+
+* {
+    padding: 0;
+    margin: 0;
+}

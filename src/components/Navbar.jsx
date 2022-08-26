@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Logo from '../img/logo.png';
 import Cart from './Cart';
+import Currency from './Currency';
 
 const Container = styled.div`
 	height: 60px;
@@ -42,16 +43,6 @@ const Right = styled.div`
 	text-align: right;
 `
 
-const CurrencyIcon = styled.div`
-	cursor: pointer;
-	padding: 0px 10px;
-	height: 50px;
-	&:hover {
-		color: #5ECE7B;
-		border-bottom: 4px solid #5ECE7B;
-}
-`
-
 const LogoIcon = styled.img`
 cursor: pointer;
 `
@@ -67,7 +58,7 @@ const Navbar = () => {
 				</Left>
 				<Center><LogoIcon src={Logo} alt ="logo" /></Center>
 				<Right>
-					<CurrencyIcon className="fa fa-dollar"></CurrencyIcon>
+					<Currency />
 					<Cart />
 				</Right>
 			</Wrapper>

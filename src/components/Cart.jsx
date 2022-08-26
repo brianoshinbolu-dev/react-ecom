@@ -17,7 +17,8 @@ const CartDrop = styled.div`
 	width: 250px;
 	height: 500px;
 	position: absolute;
-	right: 10px;
+	right: 20px;
+	top: 60px;
 	display: none;
 `
 
@@ -39,8 +40,8 @@ const CartSystem = styled.div `
 const Cart = () => {
 	return(
 		<CartSystem>
-			<Clicked id='x' type="checkbox" />
-			<Label for="x"><CartIcon className="fa fa-shopping-cart"></CartIcon></Label>
+			<Clicked id='cart' type="checkbox" />
+			<Label for="cart"><CartIcon className="fa fa-shopping-cart"></CartIcon></Label>
 			<CartDrop>
 			sup
 			</CartDrop>
